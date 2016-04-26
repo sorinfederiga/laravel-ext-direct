@@ -229,7 +229,7 @@ JAVASCRIPT;
      */
     static public function provide( $api_classes = null )
     {
-        self::config(\Config::get('ext-direct::config'));
+        self::config(config('Bulforce.ext-direct.config'));
 
         $c = new ExtDirectController($api_classes, false);
         $c->run();
