@@ -10,17 +10,7 @@ class ExtDirectServiceProvider extends ServiceProvider {
 	 * @var bool
 	 */
 	protected $defer = false;
-
-	/**
-	 * Bootstrap the application events.
-	 *
-	 * @return void
-	 */
-	/*public function boot()
-	{
-		parent::boot();
-	}*/
-
+	
 	/**
 	 * Register the service provider.
 	 *
