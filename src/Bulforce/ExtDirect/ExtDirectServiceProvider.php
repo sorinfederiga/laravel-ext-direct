@@ -16,10 +16,10 @@ class ExtDirectServiceProvider extends ServiceProvider {
 	 *
 	 * @return void
 	 */
-	public function boot()
+	/*public function boot()
 	{
 		parent::boot();
-	}
+	}*/
 
 	/**
 	 * Register the service provider.
